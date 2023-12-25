@@ -1,0 +1,48 @@
+.style_component_wrapper {
+  min-width: 1920px;
+  margin: auto;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.bg-about_us {
+  background: url("../../../public/images/style-guide-images/about-us.webp") center / cover no-repeat;
+}
+
+.bg-shop {
+  background: url("../../../public/images/style-guide-images/shop.webp") center / cover no-repeat;
+}
+
+.bg-shop-single {
+  background: url("../../../public/images/style-guide-images/shop-single.webp") center / cover no-repeat;
+}
+
+.bg-services {
+  background: url("../../../public/images/style-guide-images/services.webp") center / cover no-repeat;
+}
+
+.bg-quality {
+  background: url("../../../public/images/style-guide-images/quality-standart.webp") center / cover no-repeat;
+}
+
+.bg-portfolio {
+  background: url("../../../public/images/style-guide-images/portfolio-standard.webp") center / cover no-repeat;
+}
+
+.bg-team {
+  background: url("../../../public/images/style-guide-images/our-team.webp") center / cover no-repeat;
+}
+
+.bg-news {
+  background: url("../../../public/images/style-guide-images/news.webp") center / cover no-repeat;
+}
+
+.bg-contact {
+  background: url("../../../public/images/style-guide-images/contact.webp") center / cover no-repeat;
+}
+.bg-services-single{
+  background: url("../../../public/images/style-guide-images/service-single.webp") center / cover no-repeat;
+}

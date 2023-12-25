@@ -1,0 +1,12 @@
+.footer{
+  display: flex;
+  flex-direction: column;
+  &__inner{
+    padding-bottom: 100px;
+    display: flex;
+  }
+  a, a:visited{
+    color: var(--paragraph-color);
+  }
+}
+

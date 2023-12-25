@@ -1,0 +1,23 @@
+.socials{
+  &__list{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    & li a{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: var(--tab-na-bg-color);
+      border-radius: var(--border-radius-round);
+      transition: all .2s ease-in-out;
+      &:hover{
+        background: var(--hover-bg-color);
+      }
+      & img{
+        padding: 20px;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,58 @@
+.card-link {
+  flex-basis: calc((100% - 36px) / 2);
+  flex-shrink: 1;
+  flex-grow: 0;
+  transition: transform 0.3s ease 0s;
+
+  .card-block {
+    min-height: 367px;
+    border-radius: 30px;
+    overflow: hidden;
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: 800;
+      line-height: 1.2;
+    }
+  }
+}
+
+.card-link:first-of-type:hover {
+  transform: scale(1.04) !important;
+}
+.card-link:last-of-type:hover {
+  transform: scale(1.04) !important;
+}
+
+.first-card {
+  background: url("../../../public/images/cards-bg/first-card.webp") center / cover no-repeat;
+
+  .content-block {
+    max-width: 277px;
+    padding: 110px 0 110px 55px;
+
+    span {
+      color: var(--white-color);
+      margin-bottom: 5px;
+    }
+
+    p {
+      color: var(--white-color);
+    }
+  }
+}
+
+.second-card {
+  background: url("../../../public/images/cards-bg/second-card.webp") center / cover no-repeat;
+  .content-block {
+    max-width: 313px;
+    padding: 110px 0 110px 55px;
+    span {
+      margin-bottom: 5px;
+    }
+    p {
+      color: var(--main-color);
+    }
+  }
+}
